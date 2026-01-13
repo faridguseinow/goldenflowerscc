@@ -1,0 +1,58 @@
+[
+   {
+      "page_name": "flowers",
+      "headerWrapper": {
+         "img": "https://sun9-24.userapi.com/impg/LHl_HSqLJDRdlFxs7NoxYMlvZ8jHP02m6-R-6w/B5ps1iP5VII.jpg?size=2560x1707&quality=95&sign=7fa69529bca3b02f78d846530691e518&type=album",
+         "title": {
+            "en": "Flowers",
+            "ru": "Цветы"
+         }
+      },
+      "galleryTitle": {
+         "en": "Every flower is a <span>soul</span> blooming in <span>nature</span>!",
+         "ru": "Каждый цветок — это <span>душа</span>, расцветающая в <span>природе</span>!"
+      }
+   },
+   {
+      "page_name": "plants",
+      "headerWrapper": {
+         "img": "https://sun9-64.userapi.com/impg/RS2LMEhQHUmbP0rlriDs25Yyaa55ayvyBTQyqw/xbuIZEds7eQ.jpg?size=2560x1706&quality=95&sign=481566547cd510e89bb1bcd2bc7ad457&type=album",
+         "title": {
+            "en": "Plants",
+            "ru": "Растения"
+         }
+      },
+      "galleryTitle": {
+         "en": "You <span>will never</span> find so many <span>plants</span>!",
+         "ru": "Вы <span>никогда</span> не найдете столько <span>растений</span>!"
+      }
+   },
+   {
+      "page_name": "accessories",
+      "headerWrapper": {
+         "img": "https://sun9-39.userapi.com/impg/IpT8MZvlw6diLydyP4hgIFWa5QfUc8GJCrG4Lg/mHbxNCwT9t8.jpg?size=2560x1280&quality=95&sign=b473001692c1548f5277a8a3712db596&type=album",
+         "title": {
+            "en": "Accessories",
+            "ru": "Аксессуары"
+         }
+      },
+      "galleryTitle": {
+         "en": "Flowers speak the language of beauty, and <span>accessories</span> help them tell their <span>story</span>!",
+         "ru": "Цветы говорят на языке красоты, а <span>аксессуары</span> помогают им рассказать свою <span>историю</span>!"
+      }
+   },
+   {
+      "page_name": "suppliers",
+      "headerWrapper": {
+         "img": "https://sun9-49.userapi.com/impg/8XLBtkNHhCnJ4-seKbT5ClREMBbdBLLYK4ogxw/t_Ps10eJOdo.jpg?size=2560x1707&quality=95&sign=8d8ba9965653cb4373977b533e6b7dc0&type=album",
+         "title": {
+            "en": "Suppliers",
+            "ru": "Поставщики"
+         }
+      },
+      "galleryTitle": {
+         "en": "We have the <span>best suppliers</span> of flowers, plants and accessories!",
+         "ru": "У нас <span>лучшие</span> поставщики цветов, растений и аксессуаров!"
+      }
+   }
+]

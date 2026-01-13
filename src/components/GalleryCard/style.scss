@@ -1,0 +1,47 @@
+.single_gallery_card {
+   width: 100%;
+   position: relative;
+
+   a {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      .image_wrapper {
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+
+         img {
+            width: 100%;
+            // height: 200px;
+            object-fit: cover;
+            border-radius: 32px;
+         }
+      }
+
+      .card_title {
+         width: 100%;
+
+         h2 {
+            font-family: var(--f-medium);
+            font-size: 20px;
+            color: var(--white);
+            transition: all .25s ease;
+            line-height: 32px;
+            text-align: center;
+         }
+      }
+
+      @media screen and (min-width: 768px) {
+
+         &:hover .card_title {
+            h2 {
+               color: var(--gold);
+            }
+         }
+      }
+
+   }
+}
