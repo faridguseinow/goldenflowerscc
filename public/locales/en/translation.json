@@ -11,7 +11,6 @@
       "priceList": "Price list",
       "showcase": "Showcase",
       "pricelist": "Price list"
-
    },
    "footer": {
       "flowers": {
@@ -44,6 +43,14 @@
    "home": {
       "headerDesc1": "WHOLESALE FLOWER BASE | APARINKI",
       "headerDesc2": "EVERYTHING FOR FLOWER BUSINESS",
+      "qrHeader": "Scan the QR for download GFCC application",
+      "qrtext1": "- SEARCH FOR GOODS",
+      "qrtext2": "- FRESH PRICE LIST",
+      "qrtext3": "- CURRENCY CONVERTER",
+      "qrtext4": "- FAQ",
+      "qrtext5": "- CONTACT NUMBERS",
+      "qrtext6": "- LOCATION OF THE BASE",
+      "qrtext7": "- CLIENT QR CODE",
       "aboutSection": {
          "title": "Briefly about us:",
          "desc": "Golden Flowers Cash&Carry has been a supplier of flowers, plants and accessories from leading global manufacturers to the Russian market for decades and is one of the largest wholesale bases for the flower business in the Moscow region. We have wholesale sales of cut flowers, potted plants, packaging materials. Here you will find everything for the flower business!",

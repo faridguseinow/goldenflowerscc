@@ -7,7 +7,7 @@ import Button from '@/components/Button/Index';
 import Slider from '@/components/Slider/index';
 import MapSVG from '@/assets/media/images/materials/world_map.png';
 import AboutVid from '@/assets/media/video/about_vid.mp4';
-import QRcodeVid from '@/assets/media/video/GFCC-QR-video.mp4';
+// import QRcodeVid from '@/assets/media/video/GFCC-QR-video.mp4';
 import { Helmet } from 'react-helmet';
 
 //Import Images
@@ -153,15 +153,15 @@ const Index = () => {
                     <div className="gfccapp_left">
 
                         <div className="gfccapp_text">
-                            <h3 className='desktop_text'>Сканируйте QR-код, чтобы установить приложение GFCC</h3>
+                            <h3 className='desktop_text'>{t('home.qrHeader')}</h3>
                             <p>
-                                - УДОБНЫЙ ПОИСК ТОВАРОВ<br />
-                                - ОБНОВЛЯЕМЫЙ ПРАЙС-ЛИСТ<br />
-                                - КОНВЕРТЕР ВАЛЮТ<br />
-                                - ЧАСТОЗАДАВАЕМЫЕ ВОПРОСЫ<br />
-                                - НОМЕРА ОТДЕЛОВ<br />
-                                - МЕСТОПОЛОЖЕНИЕ БАЗЫ<br />
-                                - QR КОД КЛИЕНТА<br />
+                                {t('home.qrtext1')}<br />
+                                {t('home.qrtext2')}<br />
+                                {t('home.qrtext3')}<br />
+                                {t('home.qrtext4')}<br />
+                                {t('home.qrtext5')}<br />
+                                {t('home.qrtext6')}<br />
+                                {t('home.qrtext7')}<br />
                             </p>
                         </div>
 
@@ -179,9 +179,9 @@ const Index = () => {
                         />
                     </div>
 
-                    <div className="gfccapp_right">
+                    {/* <div className="gfccapp_right">
                         <video playsInline src={QRcodeVid} autoPlay muted loop></video>
-                    </div>
+                    </div> */}
 
 
                 </div>

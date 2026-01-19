@@ -123,7 +123,7 @@ const Index = ({ menuIsActive, setMenuIsActive }) => {
                 <div className="nav_right">
 
                     <div className="shop_button">
-                        <a href={"https://gfcc-app.netlify.app/price"}>
+                        <a href={"https://gfcc-app.netlify.app/price"} target='_blank'>
                             <button>
                                 {/* <img src={DownloadSVG} width={24} /> */}
                                 <span>{t('navbar.priceList')}</span>

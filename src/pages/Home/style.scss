@@ -76,60 +76,70 @@
 
     .gfccapp_container {
         width: 100%;
-        background-color: #ffffff;
+        background-color: var(--bg_color);
         padding-top: 16px;
+        height: 30vh;
 
         .gfccapp_inner {
-            max-width: 1200px;
+            max-width: 1140px;
             margin: 0 auto;
             padding: 0 24px;
 
             display: flex;
-            align-items: center;
-            justify-content: space-between;
+            align-items: flex-start;
+            justify-content: space-around;
             gap: 16px;
         }
 
         /* LEFT */
         .gfccapp_left {
             display: flex;
+            padding: 16px;
+            background: var(--bg_color2);
+            border-radius: 32px;
             align-items: center;
             gap: 24px;
             max-width: 520px;
-        }
 
-        .gfccapp_text {
-            font-family: var(--f-regular);
-
-            h3 {
-                font-size: 20px;
-                font-weight: 700;
-                margin-bottom: 8px;
-            }
-
-            p {
-                font-size: 14px;
+            .gfccapp_text {
+                font-family: var(--f-regular);
                 line-height: 1.5;
-                color: #6b7280;
+                padding: 16px;
+
+                h3 {
+                    font-size: 20px;
+                    font-weight: 700;
+                    margin-bottom: 8px;
+                    color: var(--gold);
+                }
+
+                p {
+                    font-size: 14px;
+                    line-height: 1.8;
+                    color: var(--white);
+                }
+            }
+
+            .gfccapp_qr {
+                width: 120px;
+                height: 120px;
+                background-color: var(--gold);
+                border-radius: 12px;
+                margin: 16px;
+                padding: 8px;
+                box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+                flex-shrink: 0;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    display: block;
+                }
             }
         }
 
-        .gfccapp_qr {
-            width: 120px;
-            height: 120px;
-            background-color: var(--gold);
-            border-radius: 12px;
-            padding: 12px;
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-            flex-shrink: 0;
 
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: contain;
-                display: block;
-            }
-        }
 
         /* MIDDLE */
         .gfccapp_middle {
@@ -140,12 +150,16 @@
                 width: 100%;
                 height: auto;
                 display: block;
+                position: relative;
+                bottom: 150px;
+                z-index: 9;
             }
         }
 
         /* RIGHT */
         .gfccapp_right {
             flex-shrink: 0;
+            display: none;
 
             video {
                 max-width: 480px;
@@ -160,18 +174,42 @@
 
         /* IPAD */
         @media (max-width: 1140px) {
+
+            height: 20vh;
+
             .gfccapp_inner {
-                flex-direction: column;
-                text-align: center;
+                align-items: flex-start;
                 gap: 0px;
+
 
             }
 
             .gfccapp_left {
-                gap: 8px;
+                gap: 0px;
                 flex-direction: column;
+                align-items: center;
+                padding: 6px;
+                border-radius: 8px;
+                margin: 6px;
+
+                .gfccapp_qr {
+                    width: 80px;
+                    height: auto;
+                    padding: 5px;
+                    border-radius: 8px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
 
                 .gfccapp_text {
+                    padding: 8px;
+
+                    h3 {
+                        font-size: 14px;
+                    }
+
                     p {
                         display: none;
                     }
@@ -180,6 +218,12 @@
 
             .gfccapp_middle img {
                 max-width: 150px;
+                width: 100%;
+                height: auto;
+                display: block;
+                position: relative;
+                bottom: 80px;
+                z-index: 9;
             }
 
             .gfccapp_right video {
@@ -189,20 +233,32 @@
 
         /* MOBILE */
         @media (max-width: 768px) {
+            height: 30vh;
             .gfccapp_inner {
-                flex-direction: column;
-                text-align: center;
+                text-align: left;
             }
 
             .gfccapp_left {
+                gap: 0;
                 flex-direction: column;
+                align-items: center;
+                padding: 6px;
+                border-radius: 8px;
+                margin: 6px;
+
+                .gfccapp_text {
+                    text-align: center;
+                    padding: 0;
+                }
             }
 
             .gfccapp_middle img {
-                max-width: 300px;
+                max-width: 180px;
+                padding: 0;
             }
 
             .gfccapp_right video {
+                display: none;
                 max-width: 200px;
             }
         }

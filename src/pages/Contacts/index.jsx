@@ -132,7 +132,7 @@ function index() {
                                                 <a className="icon_call" href='tel:84957818888' target='_blank'>
                                                     <img src={Call} width={40} />
                                                 </a>
-                                                <a className="icon_wp" href='https://wa.me/79637818889' target='_blank'>
+                                                <a className="icon_wp" href='https://t.me/+79637818889' target='_blank'>
                                                     <img src={Whatsapp} width={40} />
                                                 </a>
                                             </div>
@@ -187,10 +187,10 @@ function index() {
                                                 <a className="icon_call" href='tel:89092868188' target='_blank'>
                                                     <img src={Call} width={40} />
                                                 </a>2
-                                                <a className="icon_wp" href='https://wa.me/79645117113' target='_blank'>
+                                                <a className="icon_wp" href='https://t.me/+79645117113' target='_blank'>
                                                     <img src={Whatsapp} width={40} />
                                                 </a>1
-                                                <a className="icon_wp" href='https://wa.me/79092868188' target='_blank'>
+                                                <a className="icon_wp" href='https://t.me/+79092868188' target='_blank'>
                                                     <img src={Whatsapp} width={40} />
                                                 </a>2
                                             </div>
@@ -217,7 +217,7 @@ function index() {
                                                 <a className="icon_call" href='tel:89266355181' target='_blank'>
                                                     <img src={Call} width={40} />
                                                 </a>
-                                                <a className="icon_wp" href='https://wa.me/79266355181' target='_blank'>
+                                                <a className="icon_wp" href='https://t.me/+79266355181' target='_blank'>
                                                     <img src={Whatsapp} width={40} />
                                                 </a>
                                             </div>
@@ -247,10 +247,10 @@ function index() {
                                                 <a className="icon_call" href='tel:89652398588' target='_blank'>
                                                     <img src={Call} width={40} />
                                                 </a>2
-                                                <a className="icon_wp" href='https://wa.me/79254533969' target='_blank'>
+                                                <a className="icon_wp" href='https://t.me/+79254533969' target='_blank'>
                                                     <img src={Whatsapp} width={40} />
                                                 </a>1
-                                                <a className="icon_wp" href='https://wa.me/79652398588' target='_blank'>
+                                                <a className="icon_wp" href='https://t.me/+79652398588' target='_blank'>
                                                     <img src={Whatsapp} width={40} />
                                                 </a>2
                                             </div>
@@ -280,10 +280,10 @@ function index() {
                                                 <a className="icon_call" href='tel:89096988188' target='_blank'>
                                                     <img src={Call} width={40} />
                                                 </a>2
-                                                <a className="icon_wp" href='https://wa.me/79672921155' target='_blank'>
+                                                <a className="icon_wp" href='https://t.me/+79672921155' target='_blank'>
                                                     <img src={Whatsapp} width={40} />
                                                 </a>1
-                                                <a className="icon_wp" href='https://wa.me/79096988188' target='_blank'>
+                                                <a className="icon_wp" href='https://t.me/+79096988188' target='_blank'>
                                                     <img src={Whatsapp} width={40} />
                                                 </a>2
                                             </div>
@@ -337,7 +337,7 @@ function index() {
                                                 <a className="icon_call" href='tel:89654118885' target='_blank'>
                                                     <img src={Call} width={40} />
                                                 </a>
-                                                <a className="icon_wp" href='https://wa.me/79654118885' target='_blank'>
+                                                <a className="icon_wp" href='https://t.me/+79654118885' target='_blank'>
                                                     <img src={Whatsapp} width={40} />
                                                 </a>
                                             </div>
@@ -360,7 +360,7 @@ function index() {
                                     <p>{t('contact.section1.office1')}</p>
                                 </div>
                                 <div className="num_sec_right">
-                                    <a href='https://wa.me/79637818889' target='_blank'>8 (495) 781 88 88</a>
+                                    <a href='https://t.me/+79637818889' target='_blank'>8 (495) 781 88 88</a>
 
                                 </div>
 
@@ -373,7 +373,7 @@ function index() {
                                     <p>{t('contact.section1.office2')}</p>
                                 </div>
                                 <div className="num_sec_right">
-                                    <a href='https://wa.me/79251665204' target='_blank'>8 (925) 166 52 04</a>
+                                    <a href='https://t.me/+79251665204' target='_blank'>8 (925) 166 52 04</a>
                                 </div>
                             </div>
 
@@ -384,7 +384,7 @@ function index() {
                                     <p>{t('contact.section1.office6')}</p>
                                 </div>
                                 <div className="num_sec_right">
-                                    <a href='https://wa.me/79266355181' target='_blank'>8 (926) 635 51 81</a>
+                                    <a href='https://t.me/+79266355181' target='_blank'>8 (926) 635 51 81</a>
 
                                 </div>
 
@@ -397,8 +397,8 @@ function index() {
                                     <p>{t('contact.section1.office4')}</p>
                                 </div>
                                 <div className="num_sec_right">
-                                    <a href='https://wa.me/79645117113' target='_blank'>8 (964) 511 71 13</a>
-                                    <a href='https://wa.me/79092868188' target='_blank'>8 (903) 286 81 88</a>
+                                    <a href='https://t.me/+79645117113' target='_blank'>8 (964) 511 71 13</a>
+                                    <a href='https://t.me/+79092868188' target='_blank'>8 (903) 286 81 88</a>
 
                                 </div>
 
@@ -411,7 +411,7 @@ function index() {
                                     <p>{t('contact.section1.office9')}</p>
                                 </div>
                                 <div className="num_sec_right">
-                                    <a href='https://wa.me/79647818887' target='_blank'>8 (964) 781 88 87</a>
+                                    <a href='https://t.me/+79647818887' target='_blank'>8 (964) 781 88 87</a>
                                 </div>
 
                             </div>
@@ -423,7 +423,7 @@ function index() {
                                     <p>{t('contact.section1.office10')}</p>
                                 </div>
                                 <div className="num_sec_right">
-                                    <a href='https://wa.me/79998382889' target='_blank'>8 (999) 838 28 89</a>
+                                    <a href='https://t.me/+79998382889' target='_blank'>8 (999) 838 28 89</a>
                                 </div>
 
                             </div>
@@ -436,8 +436,8 @@ function index() {
                                     <p>{t('contact.section1.office3')}</p>
                                 </div>
                                 <div className="num_sec_right">
-                                    <a href='https://wa.me/79254533969' target='_blank'>8 (925) 453 39 69</a>
-                                    <a href='https://wa.me/79652398588' target='_blank'>8 (965) 239 85 88</a>
+                                    <a href='https://t.me/+79254533969' target='_blank'>8 (925) 453 39 69</a>
+                                    <a href='https://t.me/+79652398588' target='_blank'>8 (965) 239 85 88</a>
 
                                 </div>
 
@@ -450,8 +450,8 @@ function index() {
                                     <p>{t('contact.section1.office5')}</p>
                                 </div>
                                 <div className="num_sec_right">
-                                    <a href='https://wa.me/79672921155' target='_blank'>8 (967) 292 11 55</a>
-                                    <a href='https://wa.me/79096988188' target='_blank'>8 (909) 698 81 88</a>
+                                    <a href='https://t.me/+79672921155' target='_blank'>8 (967) 292 11 55</a>
+                                    <a href='https://t.me/+79096988188' target='_blank'>8 (909) 698 81 88</a>
 
                                 </div>
 
@@ -477,7 +477,7 @@ function index() {
                                     <p>{t('contact.section1.office8')}</p>
                                 </div>
                                 <div className="num_sec_right">
-                                    <a href='https://wa.me/79654118885' target='_blank'>8 (965) 411-88-85</a>
+                                    <a href='https://t.me/+79654118885' target='_blank'>8 (965) 411-88-85</a>
 
                                 </div>
 
